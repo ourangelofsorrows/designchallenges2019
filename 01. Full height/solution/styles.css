@@ -1,15 +1,19 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 header {
-    background-color: lightskyblue;
+  background-color: lightskyblue;
 }
 
 main {
-    background-color: lightcyan;
+  background-color: lightcyan;
 }
 
 footer {
-    background-color: lightblue;
+  background-color: lightblue;
+  height: 5em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
