@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  min-height: 100vh;
 }
 
 header {
@@ -7,13 +8,16 @@ header {
 }
 
 main {
+  margin-left: 1em;
+  margin-right: 1em;
   background-color: lightcyan;
 }
 
 footer {
   background-color: lightblue;
   height: 5em;
-  position: absolute;
+  position: sticky;
   bottom: 0;
+  top: 100vh;
   width: 100%;
 }
